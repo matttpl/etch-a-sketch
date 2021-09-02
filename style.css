@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #ddd;
+  color: #0e0e10;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+}
+
+.bg {
+  background-color: lightgreen;
+}
+
+.square {
+  border: 1px solid green;
+}
+
+.square:hover {
+  cursor: pointer;
+}
